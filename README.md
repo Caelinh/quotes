@@ -3,6 +3,7 @@
 ## features
 - Gives a random quote pulled from a Formismatic website. If there is no connection it will pull from a folder of cached quotes instead.
 - Run the app to see the random quote in the compiler.
+= Everytime the app is run it saves a quote in resources/quotes.json
 
 Created by Caelin Hargrave, Rexie Esmeralda and Stanley Wilder.  
 
