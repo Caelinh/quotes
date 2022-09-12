@@ -22,6 +22,7 @@ public class App {
     public static void main(String[] args) throws IOException {
 
         OnlineQuote quote = onlineQuote(urlConnector());
+        System.out.println(quote);
         Path filePath = Paths.get("app/src/main/resources/quotes.json");
 
         if (filePath.toFile().canRead()){
